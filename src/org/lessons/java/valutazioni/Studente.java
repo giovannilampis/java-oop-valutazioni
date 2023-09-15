@@ -26,4 +26,16 @@ public class Studente {
             return true; // Altrimenti, bocciato
         }
     }
+    
+    public int getId() {
+        return id;
+    }
+
+    public int getPercentualeAssenze() {
+        return percentualeAssenze;
+    }
+
+    public double getMediaVoti() {
+        return mediaVoti;
+    }
 }
